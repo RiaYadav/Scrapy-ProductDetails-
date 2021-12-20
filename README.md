@@ -17,3 +17,6 @@ To install Scrapy using conda, run:
 ```bash
 conda install -c conda-forge scrapy
 ```
+strongly recommend that you install Scrapy in a [dedicated virtualenv](https://docs.scrapy.org/en/latest/intro/install.html#intro-using-virtualenv), to avoid conflicting with your system packages.
+
+Note that sometimes this may require solving compilation issues for some Scrapy dependencies depending on your operating system, so be sure to check the [Platform specific installation notes](https://docs.scrapy.org/en/latest/intro/install.html#intro-install-platform-notes).
